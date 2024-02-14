@@ -1,0 +1,16 @@
+{
+  "Libraries": [
+    {
+      "id": "d2a9",
+      "BookName": "pirets",
+      "AuthorName": "Jack Sparow",
+      "BookCost": "1000"
+    },
+    {
+      "id": "aa3e",
+      "BookName": "Dio Lover",
+      "AuthorName": "Chandru",
+      "BookCost": "200"
+    }
+  ]
+}

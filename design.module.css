@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid black; */
+}
+/* -------------------nav------------------ */
+#nav{
+    height: 12vh;
+    width: 100vw;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#nav>.new{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:gray;
+    
+}
+#nav>.new:hover{
+    text-shadow:  0px 0px 20px black;
+}
+
+/* ----------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+#main{
+    height: 88vh;
+    width: 100vw;
+   
+}
+#main>h1{
+    position: relative;
+    text-decoration: underline;
+   top: 30px;
+   left: 20vh;
+}
+#main>form{
+    height: 400px;
+    width: 500px;
+    background-color:gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 70vh;
+    position: relative;
+    top: 13vh;
+}
+#main>form>table{
+    /* border: 2px solid black; */
+    margin: 20px;
+    height: 400px;
+    width: 500px;
+}
+.A{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.a{
+    height: 25px;
+    width: 250px;
+      border-style: none;
+      background: none;
+      border-bottom: 2px solid black;
+      font-size: 20px;
+    color: white;
+      font-weight: bolder;
+      padding: 10px;
+      /* color: white; */
+      outline: none;
+}
+.a:hover{
+    border-style: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.button{
+    height: 40px;
+    width: 300px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px white;
+}
+/* -----------------------------------Many */
+
+#all{
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* padding-left: 20px; */
+   flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+#many{
+    height: 320px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: gray;
+}
+#many>h1{
+padding-bottom: 30px;
+}
+#many>p{
+padding-bottom: 30px;
+}
+#many>.b>.btn,.btn2{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#many>.btn2{
+    margin-left: 30px;
+    
+}
+#many>.b>.btn,.btn2:hover,:active{
+    cursor: pointer;
+    /* box-shadow: 0px 0px 27px white; */
+}
